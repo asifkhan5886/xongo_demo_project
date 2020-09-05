@@ -111,7 +111,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
                                           TagModel item;
                                           item = TagModel();
-                                          item.id = index;
+                                        //  item.id = index;
                                           item.tag = snapshot.data[index];
                                           tagDb.addItem(item);
                                         },
